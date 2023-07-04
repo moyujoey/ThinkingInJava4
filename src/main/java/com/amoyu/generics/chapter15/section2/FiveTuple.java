@@ -1,6 +1,6 @@
 package com.amoyu.generics.chapter15.section2;
 
-public class FiveTuple<A, B, C, D, E> extends FourTuple {
+public class FiveTuple<A, B, C, D, E> extends FourTuple<A, B, C, D> {
 
     public final E fifth;
 
