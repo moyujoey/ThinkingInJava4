@@ -25,7 +25,7 @@ public class BasicGenerator<T> implements Generator<T> {
     }
 
     public static void main(String[] args) {
-        Generator<String> stringGenerator = BasicGenerator.create(String.class);
-        System.out.println(stringGenerator.next());
+        String str = BasicGenerator.create(String.class).next();
+        System.out.println(str);
     }
 }

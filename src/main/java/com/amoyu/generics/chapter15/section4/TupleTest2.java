@@ -5,10 +5,10 @@ import com.amoyu.generics.chapter15.section2.*;
 import static com.amoyu.generics.chapter15.section4.Tuple.tuple;
 
 public class TupleTest2 {
-  static TwoTuple<String,Integer> f() {
+  public static TwoTuple<String,Integer> f() {
     return tuple("hi", 47);
   }
-  static TwoTuple f2() { return tuple("hi", 47); }
+  public static TwoTuple f2() { return tuple("hi", 47); }
   static ThreeTuple<Amphibian,String,Integer> g() {
     return tuple(new Amphibian(), "hi", 47);
   }
